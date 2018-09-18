@@ -1,5 +1,6 @@
 devDependencies:
   babel-core: 6.26.3
+  babel-loader: 7.1.5
   babel-preset-env: 1.7.0
   browser-env: 3.2.5
   esm: 3.0.84
@@ -551,6 +552,19 @@ packages:
     dev: true
     resolution:
       integrity: sha1-NHHenK7DiOXIUOWX5Yom3fN2ArI=
+  /babel-loader/7.1.5:
+    dependencies:
+      find-cache-dir: 1.0.0
+      loader-utils: 1.1.0
+      mkdirp: 0.5.1
+    dev: true
+    engines:
+      node: '>=4'
+    peerDependencies:
+      babel-core: '6'
+      webpack: 2 || 3 || 4
+    resolution:
+      integrity: sha512-iCHfbieL5d1LfOQeeVJEUyD9rTwBcP/fcEbRCfempxTDuqrKpu0AZjLAQHEQa3Yqyj9ORKe2iHfoj4rHLf7xpw==
   /babel-messages/6.23.0:
     dependencies:
       babel-runtime: 6.26.0
@@ -5404,6 +5418,7 @@ shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
 specifiers:
   babel-core: ^6.26.3
+  babel-loader: ^7.1.5
   babel-preset-env: ^1.7.0
   browser-env: ^3.2.5
   esm: ^3.0.82
